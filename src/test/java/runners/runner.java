@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",},
         features = {"src/test/resources/features","src/test/resources/ApiFeatures"},
         glue = "stepdefinitions",
-        tags = "@aileButcem",
-        dryRun = false
+        tags = "@browser",
+        dryRun =false
         //  eger dryRun degeri TRUE ise bize sadece varsa eksik adimlari verir yoksa passed olur fakat buradaki testin passed olmasi
         // Testin gercek anlamda passed olmasi degil eksik adim olmamasidir
 
